@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins," sans;
+}
+
+.Cardd {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 10px;
+    left: 1px;
+    background-color: rgb(54, 52, 52);
+    border-radius: 20px;
+
+}
+
+body {
+    background-image: url(wp7419788.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 420px;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 40px;
+}
+
+.wrapper h1 {
+    padding-top: 40px;
+    font-size: 36px;
+    margin-top: -140px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.705);
+    background: transparent;
+    color: rgb(255, 255, 255);
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+}
+
+.RegularText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 308px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+
+.TitleText {
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    white-space: nowrap;
+    top: 100px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px black;
+}
+
+.TextColors input::placeholder {
+    color: white;
+    padding-left: 4;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.button {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 308px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
